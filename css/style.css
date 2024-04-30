@@ -4,3 +4,7 @@
     box-sizing: border-box;
 }
 
+ul{
+    font-size: 22px;
+    padding-left: 16px;
+}
