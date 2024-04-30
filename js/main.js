@@ -12,25 +12,20 @@ for (let i = 1; i <= 100; i++) {
         span.append("FizzBuzz");
         div.append(span);
         div.classList.add("square", "red");
-        li.append(div);
-        ul.append(li);
     } else if (i % 3 == 0) {
         span.append("Fizz");
         div.append(span);
         div.classList.add("square", "green");
-        li.append(div);
-        ul.append(li);
     } else if (i % 5 == 0) {
         span.append("Buzz");
         div.append(span);
         div.classList.add("square", "yellow");
-        li.append(div);
-        ul.append(li);
     } else {
         span.append(i);
         div.append(span);
         div.classList.add("square", "blue");
-        li.append(div);
-        ul.append(li);
     }
+
+    li.append(div);
+    ul.append(li);
 }
